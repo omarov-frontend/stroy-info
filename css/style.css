@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: Tahoma, sans-serif;
+    line-height: 24px;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.intro {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 484px;
+    background-image: url('../images/header-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+    z-index: 1;
+}
+
+.intro__inner {
+    color: #fefefe;
+    margin-right: 15px;
+}
+
+.intro__contact {
+    font-size: 18px;
+}
+
+.intro__number {
+    font-size: 48px;
+}
+
+.intro__number span {
+    font-size: 26px;
+}
+
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    background-color: #02a2d0;
+    font-size: 14px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 35px;
+    margin-right: 20px;
+    transition: background .2s linear;
+}
+
+.nav__link:last-child {
+    margin: 0;
+}
+
+.nav__link_active, 
+.nav__link:hover {
+    background-color: #03bddd;
+}
