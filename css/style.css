@@ -1,5 +1,9 @@
 @font-face {
     font-family: 'MuriadPro Cond';
+    src: url(../fonts/16180.eot);
+    src: url(../fonts/16180.woff);
+    src: url(../fonts/16180.woff2);
+    src: url(../fonts/16180.ttf);
     src: url(../fonts/16180.otf);
 }
 
@@ -19,7 +23,7 @@ button {
 
 body {
     background-color: #ffffff;
-    font-family: 'MuriadPro Cond';
+    font-family: 'MuriadPro Cond', sans-serif;
     line-height: 24px;
 }
 
@@ -69,7 +73,7 @@ body {
 
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     background-color: #02a2d0;
