@@ -1,10 +1,11 @@
 @font-face {
-    font-family: 'MuriadPro Cond';
-    src: url(../fonts/16180.eot);
-    src: url(../fonts/16180.woff);
-    src: url(../fonts/16180.woff2);
-    src: url(../fonts/16180.ttf);
-    src: url(../fonts/16180.otf);
+	font-family: 'Myriad_Pro_Cond';
+	src: url('../fonts/Myriad_Pro_Cond.eot');
+    src: local('☺'), url('../fonts/Myriad_Pro_Cond.woff') format('woff'), 
+                    url('../fonts/Myriad_Pro_Cond.ttf') format('truetype'), 
+                    url('../fonts//Myriad_Pro_Cond.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 * {
@@ -22,8 +23,8 @@ button {
 }
 
 body {
+    font-family: 'Myriad_Pro_Cond', sans-serif;
     background-color: #ffffff;
-    font-family: 'MuriadPro Cond', sans-serif;
     line-height: 24px;
 }
 
@@ -85,7 +86,7 @@ body {
     font-size: 19px;
     color: #fff;
     padding: 8px 38px;
-    margin-right: 20px;
+    margin-right: 19px;
     transition: background .2s linear;
 }
 
