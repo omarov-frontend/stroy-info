@@ -104,18 +104,18 @@ body {
     margin-bottom: 60px;
 }
 
-.production__item {
+.production__list {
     display: flex;
     flex-wrap: wrap;
 }
 
-.production__list {
+.production__item {
     display: flex;
     align-items: center;
-    margin-right: 90px;
+    margin-right: 85px;
 }
 
-.production__list:last-child {
+.production__item:last-child {
     margin-right: 0;
 }
 
@@ -132,19 +132,21 @@ body {
 .production-services__title {
     text-transform: uppercase;
     font-size: 17px;
+    font-weight: 500;
     color: #4e4e4e;
 }
 
 .production-services__description {
-    font-family: Tahoma, sans-serif;
+    font-family: 'Tahoma', sans-serif;
     font-size: 11px;
+    font-weight: 400;
     color: #868787;
     line-height: 21px;
     margin-bottom: 13px;
 }
 
 .production-services__link {
-    font-family: Tahoma, sans-serif;
+    font-family: 'Tahoma', sans-serif;
     display: block;
     font-size: 10px;
     color: #03a9d7;
