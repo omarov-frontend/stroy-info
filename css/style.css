@@ -415,7 +415,6 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
 }
 
 .footer-address {
@@ -461,9 +460,11 @@ body {
 }
 
 .info-link {
+    display: block;
     text-decoration: underline;
 }
 
 .cite-info span {
+    display: block;
     font-weight: bold;
 }
